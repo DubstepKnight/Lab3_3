@@ -30,9 +30,13 @@ public class MainActivity extends AppCompatActivity {
         ImageView imgThree = findViewById(R.id.imageView3);
         ImageView imgFour = findViewById(R.id.imageView4);
         imgOne.setImageResource(R.raw.bear);
+        imgOne.setTag("bear");
         imgTwo.setImageResource(R.raw.elephant);
+        imgTwo.setTag("elephant");
         imgThree.setImageResource(R.raw.lamb);
+        imgThree.setTag("lamb");
         imgFour.setImageResource(R.raw.wolf);
+        imgFour.setTag("wolf");
     }
 
     @Override
